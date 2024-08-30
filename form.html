@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="form.html">Application Form</a></li>
+        </ul>
+    </nav>
+
+    <h1>AltSchool Application Form</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Educational Background</legend>
+            <label for="highestQualification">Highest Qualification:</label>
+            <input type="text" id="highestQualification" name="highestQualification" required><br><br>
+
+            <label for="institution">Institution Attended:</label>
+            <input type="text" id="institution" name="institution" required><br><br>
+
+            <label for="course">Course of Study:</label>
+            <input type="text" id="course" name="course" required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Program Information</legend>
+            <label for="program">Program of Interest:</label>
+            <select id="program" name="program" required>
+                <option value="select">Select</option>
+                <option value="frontend">Frontend Engineering</option>
+                <option value="backend">Backend Engineering</option>
+                <option value="cloud">Cloud Engineering</option>
+                <option value="cybersecurity">Cybersecurity</option>
+            </select><br><br>
+
+            <label for="reason">Why do you want to join AltSchool?</label><br>
+            <textarea id="reason" name="reason" rows="4" cols="50" required></textarea><br><br>
+
+            <label for="goals">What are your goals for this program?</label><br>
+            <textarea id="goals" name="goals" rows="4" cols="50" required></textarea><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <footer>
+        <p>&copy; 2024 Judith Chukwuekwu Nwenearizi. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
